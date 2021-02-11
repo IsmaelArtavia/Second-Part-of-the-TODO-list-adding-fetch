@@ -5,7 +5,7 @@ const Todolist = () => {
 	let [listaTareas, setListaTareas] = useState([]);
 	let restantes;
 	if (listaTareas.length === 0) {
-		restantes = "Agrega una tarea";
+		restantes = "No hay tareas pendientes";
 	} else {
 		restantes = "Quedan " + listaTareas.length + " tareas restantes";
 	}
@@ -33,7 +33,7 @@ const Todolist = () => {
 			<h1>Todos</h1>
 			<div className="input-group input-group-lg">
 				<input
-					placeholder="Agrega una tarea"
+					placeholder="Agregar tarea"
 					onKeyPress={obtenerValor}
 					type="text"
 					className="form-control"
@@ -57,11 +57,19 @@ const Todolist = () => {
 
 				<li className="list-group-item"></li>
 				<li className="list-group-item"></li>
-				<li className="list-group-item"></li>
-				<li className="list-group-item"></li>
-				<li className="list-group-item"></li>
+				<li className="list-group-item restantes">
+					<p>{restantes}</p>
+				</li>
 			</ul>
-			<p>{restantes}</p>
+			<hr className="hr1" />
+			<hr className="hr2" />
+			<hr className="hr3" />
+			<hr className="hr4" />
+			<hr className="hr5" />
+			<hr className="hr6" />
+			<hr className="hr7" />
+			<hr className="hr8" />
+			<hr className="hr9" />
 		</div>
 	);
 };
