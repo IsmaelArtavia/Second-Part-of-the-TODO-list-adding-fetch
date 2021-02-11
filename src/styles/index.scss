@@ -115,7 +115,7 @@ list-group{
 .hr8{
     
   border-radius: 5px;
-      width: 15%;
+      width: 10%;
     height: 1px;
     border-right: 50px solid transparent;
     border-left: 50px solid transparent;
@@ -125,10 +125,19 @@ list-group{
 .hr9{
     
   border-radius: 5px;
-      width: 5%;
+      width: 4%;
     height: 1px;
-    border-right: 50px solid transparent;
-    border-left: 50px solid transparent;
-    border-top: 2px solid white;
+    border-right: 40px solid transparent;
+    border-left: 40px solid transparent;
+    border-top: 4px solid white;
 }
 
+.hr10{
+    
+  border-radius: 4px;
+      width: 2%;
+    height: 1px;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-top: 4px solid white;
+}

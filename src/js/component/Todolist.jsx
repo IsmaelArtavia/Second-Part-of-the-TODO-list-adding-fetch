@@ -70,6 +70,7 @@ const Todolist = () => {
 			<hr className="hr7" />
 			<hr className="hr8" />
 			<hr className="hr9" />
+			<hr className="hr10" />
 		</div>
 	);
 };
